@@ -1,6 +1,10 @@
 # Must-read papers on Recommender System
 
-This repository provides a list of papers including comprehensive surveys, classical recommender system, social recommender system, deep learing-based recommender system, cold start problem in recommender system, hashing for recommender system, exploration and exploitation problem as well as explainability in recommender system.
+[![wechat](https://img.shields.io/badge/wechat-ML--RSer-blue)](https://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4NTUxNTE4Ng==&mid=2247483655&idx=1&sn=5ed421a66f03a31fbab722192b8ccae2&send_time=) [![update](https://img.shields.io/badge/update-weekly-blueviolet)](#must-read-papers-on-recommender-system) [![license](https://img.shields.io/github/license/hongleizhang/RSPapers)](https://github.com/hongleizhang/RSPapers/blob/master/LICENSE)
+
+This repository provides a list of papers including comprehensive surveys, classical recommender system, social recommender system, deep learing-based recommender system, cold start problem in recommender system, hashing for recommender system, exploration and exploitation problem, explainability in recommender system  as well as  click through rate prediction for recommender system.
+
+[**New!**] Add the new part of [**Knowledge Graph for RS**](https://github.com/hongleizhang/RSPapers/tree/master/11-Knowledge%20Graph%20for%20RS).
 
 ==============================================================================
 
@@ -22,6 +26,10 @@ This repository provides a list of papers including comprehensive surveys, class
 
 **09-Explainability on RS:** it focus on addressing the problem of 'why', they not only provide
 the user with the recommendations, but also make the user aware why such items are recommended by generating recommendation explanations.
+
+**10-CTR Prediction for RS:** as one part of recommendation, click-through rate prediction focuses on the elaboration of candidate sets for recommendation.
+
+**11-Knowledge Graph for RS:** knowledge graph, as the side information of behavior interaction matrix in recent years, which can effectively alleviate the problem of data sparsity and cold start, and can provide a reliable explanation for recommendation results.
 
 ==============================================================================
 
@@ -53,13 +61,23 @@ the user with the recommendations, but also make the user aware why such items a
 
 * Singhal et al. **Use of Deep Learning in Modern Recommendation System: A Summary of Recent Works.** arXiv, 2017.
 
+* Muhammad et al. **Cross Domain Recommender Systems: A Systematic Literature Review.** ACM Comput. Surv, 2017.
+
+* Massimo et al. **Sequence-Aware Recommender Systems.** ACM Comput. Surv, 2018.
+
 * Zhang et al. **Deep learning based recommender system: A survey and new perspectives.** ACM Comput.Surv, 2018.
 
 * Batmaz et al. **A review on deep learning for recommender systems: challenges and remedies.** Artificial Intelligence Review, 2018.
 
 * Zhang et al. **Explainable Recommendation: A Survey and New Perspectives.** arXiv, 2018.
 
+* Liu et al. **Survey of matrix factorization based recommendation methods by integrating social information.** Journal of Software, 2018.
+
 * Shoujin et al. **A Survey on Session-based Recommender Systems.** arXiv, 2019.
+
+* Shoujin et al. **Sequential Recommender Systems: Challenges, Progress and Prospects.** IJCAI, 2019.
+
+* Qingyu et al. **A Survey on Knowledge Graph-Based Recommender Systems.** arXiv, 2020.
 
 
 ## Classical Recommender System
@@ -132,11 +150,17 @@ the user with the recommendations, but also make the user aware why such items a
 
 * Gao et al. **BiNE: Bipartite Network Embedding.** SIGIR, 2018.
 
+* Xiangnan et al. **Adversarial Personalized Ranking for Recommendation.** SIGIR, 2018.
+
 * Zhang et al. **Metric Factorization: Recommendation beyond Matrix Factorization.** 2018.
+
+* Lei et al. **Spectral Collaborative Filtering.** RecSys, 2018.
 
 * Chen et al. **Collaborative Similarity Embedding for Recommender Systems.** arXiv, 2019.
 
 * Chuan et al. **Heterogeneous Information Network Embedding for Recommendation.** TKDE, 2019.
+
+* Xiang et al. **Neural Graph Collaborative Filtering.** SIGIR, 2019.
 
 
 
@@ -160,6 +184,8 @@ the user with the recommendations, but also make the user aware why such items a
 
 * Yang et al. **Social collaborative filtering by trust.** IJCAI, 2013.
 
+* Jiliang et al. **Exploiting Local and Global Social Context for Recommendation.** IJCAI, 2013.
+
 * Zhao et al. **Leveraging social connections to improve personalized ranking for collaborative filtering.** CIKM, 2014.
 
 * Chen et al. **Context-aware collaborative topic regression with social matrix factorization for recommender systems.** AAAI, 2014.
@@ -167,6 +193,8 @@ the user with the recommendations, but also make the user aware why such items a
 * Guo et al. **TrustSVD: Collaborative Filtering with Both the Explicit and Implicit Influence of User Trust and of Item Ratings.** AAAI, 2015.
 
 * Wang et al. **Social recommendation with strong and weak ties.** CIKM, 2016.
+
+* Jiliang et al. **Recommendation with Social Dimensions.** AAAI, 2016.
 
 * Li et al. **Social recommendation using Euclidean embedding.** IJCNN, 2017.
 
@@ -178,9 +206,15 @@ the user with the recommendations, but also make the user aware why such items a
 
 * Rafailidis et al. **Learning to Rank with Trust and Distrust in Recommender Systems.** RecSys, 2017.
 
+* Xixi et al. **Additive Co-Clustering with Social Influence for Recommendation.** RecSys, 2017.
+
 * Zhao et al. **Collaborative Filtering with Social Local Models.** ICDM, 2017.
 
 * Wang et al. **Collaborative Filtering with Social Exposure: A Modular Approach to Social Recommendation.** AAAI, 2018.
+
+* Wenqi et al. **Deep Modeling of Social Relations for Recommendation.** AAAI, 2018
+
+* Xuying et al. **Personalized Privacy-Preserving Social Recommendation.** AAAI,2018.
 
 * Wen et al. **Network embedding based recommendation method in social networks.** WWW Poster, 2018.
 
@@ -194,9 +228,17 @@ the user with the recommendations, but also make the user aware why such items a
 
 * Song et al. **Session-based Social Recommendation via Dynamic Graph Attention Networks.** WSDM, 2019.
 
+* Wenqi et al. **Deep Social Collaborative Filtering.** RecSys, 2019.
+
 * Wenqi et al. **Deep Adversarial Social Recommendation.** IJCAI, 2019.
 
 * Qitian et al. **Feature Evolution Based Multi-Task Learning for Collaborative Filtering with Social Trust.** IJCAI, 2019.
+
+* Wu et al. **SocialGCN: An Efficient Graph Convolutional Network based Model for Social Recommendation.** AAAI, 2019.
+
+* Wu et al. **Dual Graph Attention Networks for Deep Latent Representation of Multifaceted Social Effects in Recommender System.** WWW, 2019.
+
+* Wu et al. **A Neural Influence Diffusion Model for Social Recommendation.** SIGIR, 2019.
 
 
 ## Deep Learning based Recommender System
@@ -206,6 +248,8 @@ the user with the recommendations, but also make the user aware why such items a
 * Wang et al. **Collaborative deep learning for recommender systems.** KDD, 2015.
 
 * Sedhain et al. **Autorec: Autoencoders meet collaborative filtering.** WWW, 2015.
+
+* Li et al. **Deep collaborative filtering via marginalized denoising auto-encoder.** CIKM, 2015.
 
 * Hidasi et al. **Session-based recommendations with recurrent neural networks.** ICLR, 2016.
 
@@ -231,7 +275,9 @@ the user with the recommendations, but also make the user aware why such items a
 
 * Li et al. **Deep Collaborative Autoencoder for Recommender Systems: A Unified Framework for Explicit and Implicit Feedback.** arXiv, 2017.
 
-* Xue et al. **Deep Matrix Factorization Models for Recommender Systems.** IJCAI. 2017. [code](https://github.com/RuidongZ/Deep_Matrix_Factorization_Models)
+* Xue et al. **Deep Matrix Factorization Models for Recommender Systems.** IJCAI, 2017. [code](https://github.com/RuidongZ/Deep_Matrix_Factorization_Models)
+
+* Zhao et al. **Learning and Transferring IDs Representation in E-commerce.** KDD, 2018.
 
 * Liang et al. **Variational Autoencoders for Collaborative Filtering.** WWW, 2018.
 
@@ -269,6 +315,8 @@ the user with the recommendations, but also make the user aware why such items a
 
 * Wu et al. **Session-based Recommendation with Graph Neural Networks.** AAAI, 2019.
 
+* Zhi-Hong et al. **DeepCF: A Unified Framework of Representation Learning and Matching Function Learning in Recommender System.** AAAI, 2019.
+
 * Zeping et al. **Adaptive User Modeling with Long and Short-Term Preferences for Personalized Recommendation.** IJCAI, 2019.
 
 * Dong Xi et al. **BPAM: Recommendation Based on BP Neural Network with Attention Mechanism.** IJCAI, 2019.
@@ -285,16 +333,28 @@ the user with the recommendations, but also make the user aware why such items a
 
 * Jiani et al. **STAR-GCN: Stacked and Reconstructed Graph Convolutional Networks for Recommender Systems.** IJCAI, 2019.
 
+* An et al. **CosRec: 2D Convolutional Neural Networks for Sequential Recommendation.** CIKM, 2019.
+
+* Hongwei et al. **Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation.** WWW, 2019.
+
+* Maurizio et al. **Are We Really Making Much Progress? A Worrying Analysis of Recent Neural Recommendation Approaches.** RecSys, 2019.
+
+* Xin et al. **Cfm: Convolutional factorization machines for context-aware recommendation.** IJCAI, 2019.
+
 
 ## Cold Start Problem in Recommender System
 
 * Schein et al. **Methods and metrics for cold-start recommendations.** SIGIR, 2002.
+
+* Seung-Taek et al. **Pairwise Preference Regression for Cold-start Recommendation.** RecSys, 2009.
 
 * Gantner et al. **Learning attribute-to-feature mappings for cold-start recommendations.** ICDM, 2010.
 
 * Sedhain et al. **Social collaborative filtering for cold-start recommendations.** RecSys, 2014.
 
 * Zhang et al. **Addressing cold start in recommender systems: A semi-supervised co-training algorithm.** SIGIR, 2014.
+
+* Kula. **Metadata embeddings for user and item cold-start recommendations.** arXiv, 2015.
 
 * Sedhain et al. **Low-Rank Linear Cold-Start Recommendation from Social Data.** AAAI. 2017.
 
@@ -346,7 +406,11 @@ the user with the recommendations, but also make the user aware why such items a
 
 * Lian et al. **Discrete Content-aware Matrix Factorization.** SIGKDD, 2017.
 
+* Han et al. **Discrete Factorization Machines for Fast Feature-based Recommendatio.** IJCAI, 2018.
+
 * Guibing et al. **Discrete Trust-aware Matrix Factorization for Fast Recommendation.** IJCAI, 2019.
+
+* Chenghao et al. **Discrete Social Recommendation.** AAAI, 2019.
 
 
 ## EE in RS
@@ -387,6 +451,39 @@ the user with the recommendations, but also make the user aware why such items a
 * Min et al. **Explainable Fashion Recommendation: A Semantic Attribute Region Guided Approach.** IJCAI, 2019.
 
 
+## CTR Prediction for RS
+
+* Guo et al. **Deepfm: A factorization-machine based neural network for ctr prediction.** IJCAI, 2017
+
+* Zhou et al. **Deep Interest Network for Click-Through Rate Prediction.** KDD 2018.
+
+* Zhou et al **Deep Session Interest Network for Click-Through Rate Prediction.** IJCAI, 2019.
+
+* Zhou et al. **Deep Interest Evolution Network for Click-Through Rate Prediction.** AAAI, 2019 
+
+* Yang et al. **Operation-aware Neural Networks for User Response Prediction.** 2019.
+
+* Liu et al. **Feature Generation by Convolutional Neural Network for Click-Through Rate Prediction.** 2019.
+
+* Wentao et al. **Deep Spatio-Temporal Neural Networks for Click-Through Rate Prediction.** KDD, 2019.
+
+* Qi et al. **Practice on Long Sequential User Behavior Modeling for Click-Through Rate Prediction.** KDD, 2019.
+
+
+## Knowledge Graph for RS
+
+* Fuzheng et al. **Collaborative Knowledge Base Embedding for Recommender Systems.** KDD, 2016.
+
+* Hongwei et al. **DKN: Deep Knowledge-Aware Network for News Recommendation.** WWW, 2018.
+
+* Hongwei et al. **Ripplenet-Propagating user preferences on the knowledge graph for recommender systems.** CIKM, 2018.
+
+* Hongwei et al. **Knowledge-aware Graph Neural Networks with Label Smoothness Regularization for Recommender Systems.** KDD, 2019.
+
+* Hongwei et al. **Multi-Task Feature Learning for Knowledge Graph Enhanced Recommendation.** WWW, 2019.
+
+* Xiang et al. **Reinforced Negative Sampling over Knowledge Graph for Recommendation.** WWW, 2020.
+
 
 ## RSAlgorithms
 
@@ -404,9 +501,11 @@ Thank @**Wang Zhe** for his advice about EE in RS.
 
 Highly thank @**Yujia Zhang** for her summary on Hashing for RS.
 
+Thank @**Zixuan Yang** for his collecting papers about CTR Prediction for RS.
+
 Specially appreciate Professor @[**Jun Wu**](http://faculty.bjtu.edu.cn/8620/) for his attentive guidance in my research career.
 
-WeChat Official Account: [Machine-Relearning](https://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4NTUxNTE4Ng==&mid=2247483655&idx=1&sn=5ed421a66f03a31fbab722192b8ccae2&send_time=)
+WeChat Official Account: [ML-RSer](https://mp.weixin.qq.com/mp/qrcode?scene=10000004&size=102&__biz=MzA4NTUxNTE4Ng==&mid=2247483655&idx=1&sn=5ed421a66f03a31fbab722192b8ccae2&send_time=)
 
 My ZhiHu: [Honglei Zhang](https://www.zhihu.com/people/hongleizhang)
 
